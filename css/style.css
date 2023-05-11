@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: roboto, sans-serif;
+    box-sizing: border-box;
+    
+}
+
+  *::before,
+  *::after {
+    box-sizing: border-box;
+}
+
+body{
+    background: url("../img//Lovepik_com-401943506-technological-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    
+}
+
+
+/* CONTENEDOR DE TODA LA PÁGINA */
+.contenedor-total{
+    display:flex;
+    justify-content: space-between;
+    padding: 2%;
+    margin-top: auto;
+}
+
+
+/* BARRA DE NAVEGACIÓN */
+header{
+    z-index: 2;
+    position:relative;
+    min-width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    padding: 0.7em;
+    height: 400px;
+}
+
+nav ul li a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li{
+    font-size: 1em;
+    list-style: none;
+    height: 70px;
+}
+
+nav ul li a{
+    cursor: pointer;
+}
+
+
+a:visited, a:link, a:active{
+    text-decoration: none;
+}
+
+nav ul li a:visited, a:link, a:active{
+    color: #B3BAC2;
+}
+
+nav ul li a:hover{
+    text-decoration: none;
+    color: #114BB3;
+}
+
+/* Icono menú */
+#label-nav{
+    color: #B3BAC2;
+    font-size: 30px;
+    z-index: 3;
+}
+
+#input-nav{
+    visibility: hidden;
+}
+
+#div-input{
+    width: 100%;
+    height: auto;
+    display: none;
+}
+
+.rotarIcono{
+    transform: rotate(-90deg);
+    transition: all 0.5s;
+    color: rgb(15, 51, 149);
+}
+
+.menuDesplegado{
+    display: flex !important;
+}
+
+.span-nav{
+    display: none;
+    padding-bottom: 0.5em;
+}
+
+
+/* FOOTER */
+
+#footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #01040ff9;
+    margin-top: auto;
+    box-sizing: border-box;
+    font-size: 30px;
+    height: 106px;
+    width: 100%;
+}
+
+.div-icons-footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    padding-top: 7px;
+    font-size: 30px;
+    height: 56px;
+    width: 100%;
+    z-index: 3;
+}
+
+.div-copy-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 7px;
+    height: 50px;
+}
+
+.movimiento{
+    animation: anim-footer 1s ease-out;
+    border-radius: 40px;
+    position: relative;
+}
+
+@keyframes anim-footer {
+    from{
+        background: #01040ff9;
+        color: #B3BAC2;
+        transition: all 2s;
+        position: relative
+    }
+    to{
+        transition: all 2s;
+        background: #B3BAC2;
+        color: #01040ff9;
+        padding: 7px 7px 7px 7px;
+        position: relative
+    }
+}
+
+.links-footer{
+    color: #B3BAC2;
+    border-radius: 40px;
+    margin: auto;
+    width:40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.copy-footer{
+    font-size: 15px;
+    font-weight: bolder;
+    color: #B3BAC2;
+}
+
+
+/* MEDIA QUERIES */
+@media (max-width: 1050px){
+    .contenedor-total{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+        justify-content: center;
+        padding: 0;
+    }
+    
+    header{
+        height: 250px;
+        display: flex;
+        flex-direction: row;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        align-items: baseline;
+        justify-content: flex-start;
+    }
+    
+
+    nav{
+        display: none;
+        position: fixed;
+        text-align: center;
+        margin-bottom: 20px;
+        background: #0f162c;
+        width: 100%;
+        height: 250px;
+    }
+
+    nav ul li{
+        height: 40px;
+    }
+    
+    nav ul li a:hover{
+        color: #0F338C !important;
+        font-weight: bolder;
+    }
+    
+    nav ul li a{
+        color:#b7b8b9 !important;
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+    }
+    
+
+    .span-nav{
+        padding-bottom: 0;
+        margin-left: 10px;
+    }
+
+    #input-nav:checked~#navBar{
+        display: block;
+    }
+
+    #label-nav{
+        margin: 15px 0px 0px 15px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+

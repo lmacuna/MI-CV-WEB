@@ -1,0 +1,132 @@
+#informacionPersonal{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    color: #B3BAC2;
+    box-sizing: border-box;
+}
+
+#titulo-datos{
+    width: 30%;
+    border: 2px solid #01040ff9;
+    box-shadow: 0 0 10px black, 0 0 20px black, 0 0 40px black;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle,rgb(0, 4, 9),rgb(5, 37, 91,0.4));
+    transition: all 2s !important;
+    box-sizing: border-box;
+}
+#content-datos{
+    width: 60%;
+    border: 2px solid #01040ff9;
+    box-shadow: 0 0 10px black,
+    0 0 20px black,
+    0 0 40px black;
+    height: 100%;
+    background: radial-gradient(circle,rgb(0, 4, 9),rgb(5, 37, 91,0.4));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    padding: 15px;
+    transition: all 2s !important;
+    box-sizing: border-box;
+}
+
+.titulo-datos-personales{
+    color: white;
+}
+
+#item{
+    display: flex;
+    width: 100%;
+    height: auto;
+     justify-content: center;
+    align-items: center; 
+    margin-bottom: 20px;
+   
+}
+.span{
+    width:35%;
+    /* border:2px solid red; */
+    text-align: left !important;
+}
+
+/* MEDIA QUERIES */
+@media (max-width:1050px){
+    #informacionPersonal{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 76vh !important;
+    }
+    #titulo-datos{
+        width: 70%;
+      
+        height: 16% !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background: radial-gradient(circle,rgb(0, 4, 9),rgb(5, 37, 91)); */
+    }
+    #content-datos{
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 80% !important;
+      /*   background: radial-gradient(circle,rgb(0, 4, 9),rgb(5, 37, 91)); */
+    }
+    .titulo-datos-personales{
+        font-size: 20px;
+    }
+    #item{
+        text-align: center !important;
+     
+    }
+    .span{
+        width:43% !important;
+        
+    }
+}
+
+@media (max-width:800px){
+    #titulo-datos{
+        width: 85%;
+ 
+    }
+    .titulo-datos-personales{
+        font-size: 18px !important;
+    }
+    #content-datos{
+        width: 85%;
+       
+    }
+    .span{
+        width:53% !important;
+    }
+}
+
+@media (max-width:500px){
+    #titulo-datos{
+        margin-top: 10px !important;
+        width: 95%;
+ 
+    }
+    .titulo-datos-personales{
+        font-size: 16px !important;
+    }
+    #content-datos{
+        width: 95%;
+       
+    }
+    .span{
+        width:85% !important;
+        font-size: 14px !important;
+    }
+}

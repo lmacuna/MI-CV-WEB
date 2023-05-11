@@ -1,0 +1,310 @@
+h2 {
+    color: #B3BAC2;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.form-contacto {
+    width: 100%;
+    height: 65vh;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   /*  background: rgb(8, 21, 53, 0.7); */
+   background: radial-gradient(circle,rgb(0, 4, 9),rgb(5, 37, 91,0.6));
+    box-shadow:0 0 50px black,0 0 100px black,0 0 200px black;
+    padding-left: 9%;
+}
+
+textarea {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: bold;
+    background: rgb(8, 21, 53, 0.9);
+    margin-left: auto;
+    color: #B3BAC2;
+    border: 1px solid black;
+    font-size: 14px;
+}
+
+.textarea-rojo {
+    height: 99.8% !important;
+    border: 1px solid red;
+    background: rgb(8, 21, 53, 0.9);
+}
+
+.textarea-verde {
+    border: 1px solid limegreen;
+    background: rgb(8, 21, 53, 0.9);
+
+}
+
+.input-form {
+    width: 100%;
+    height: 100%;
+    background: rgb(8, 21, 53, 0.9);
+    color: white;
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    margin-left: auto;
+    padding: 15px;
+}
+
+.input-form{
+    padding: 15px;
+}
+
+.box-form{
+    width: 100%;
+    height: 35px;
+    display: flex;
+}
+    
+
+
+
+
+#contactame {
+    width: 45%;
+    margin: auto;
+}
+
+
+.sweet-button{
+    color: rgb(161, 161, 161);
+    background: radial-gradient(circle, rgba(12, 33, 87, 0.9),rgba(6, 8, 13, 0.9));
+    padding: 40%;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    width:30%;
+    
+}
+
+.swal2-popup{
+    border: solid 3px rgb(4, 5, 34) !important;
+    min-width: 20%;
+    max-width: 20%;
+}
+
+
+
+
+.nombre-vacio {
+
+    width: 100%;
+    text-align: center;
+    height: 12px !important;
+    color: red;
+    font-size: 11px;
+    margin-bottom: 5px !important;
+}
+
+.email-vacio {
+    width: 100%;
+    text-align: center;
+    height: 12px !important;
+    color: red;
+    font-size: 11px;
+    margin-bottom: 5px !important;
+
+}
+
+.asunto-vacio {
+    width: 100%;
+    text-align: center;
+    height: 12px !important;
+    color: red;
+    font-size: 11px;
+    margin-bottom: 5px !important;
+
+}
+
+.mensaje-vacio {
+    width: 100%;
+    text-align: center;
+    height: 12px !important;
+    color: red;
+    font-size: 11px;
+    margin-bottom: 5px !important;
+}
+
+
+
+.input-verde {
+    height: 23px;
+    border: 1px solid limegreen !important;
+}
+   
+    
+
+.input-rojo {
+    height: 22.5px !important;
+    border: 1px solid red !important;
+}
+ 
+     
+
+
+
+
+.tilde-nombre {
+    width: 8%;
+    height: 25px;
+    margin-right: auto;
+    text-align: center;
+    color: limegreen;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+
+
+   
+
+
+.tilde-email {
+    width: 8%;
+    height: 100%;
+    margin-right: auto;
+    text-align: center;
+    color: limegreen;
+    font-size: 18px;
+    font-weight: bold;
+}
+ 
+
+
+
+
+.tilde-asunto {
+    width: 8%;
+    height: 100%;
+    margin-right: auto;
+    text-align: center;
+    color: limegreen;
+    font-size: 18px;
+    font-weight: bold;
+}
+   
+
+
+.box-mensaje {
+    width: 100%;
+    height: 26vh !important;
+    display: flex;
+}
+    
+
+.tilde-mensaje {
+    width: 8%;
+    height: 25px;
+    margin-right: auto;
+    text-align: center;
+    color: limegreen;
+    font-size: 18px;
+    font-weight: bold;
+}
+    
+.box-btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 7.5%;
+}
+
+.btn-contactame {
+    margin-top: 15px;
+    border: none !important;
+    padding: 10px 10px 10px 10px;
+    background:rgba(7, 1, 39, 0.9) !important;
+    font-weight: bold;
+    width: 100%;
+    color: #B3BAC2;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+
+}
+
+
+.btn-contactame:hover {
+    background: rgb(104, 143, 143) !important;
+    color: rgb(0,0,0) !important;
+    text-shadow: 1px 1px 1px grey;
+
+}
+    
+.btn-contactame:active {
+    transform: scale(0.9);
+    background:white !important;
+    color:black !important;
+    box-shadow: 0 0 5px white,
+    0 0 10px white,
+    0 0 20px white;
+    text-shadow: 1px 1px 1px black;
+
+}
+
+.btn-reset {
+    width: 100%;
+    padding:10px 10px 10px 10px;
+    cursor: pointer;
+    border:none !important;
+    background: rgba(39, 39, 39, 0.9) !important;
+    color: #B3BAC2;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+
+.btn-reset:hover{
+    background: rgb(104, 143, 143) !important;
+    color: black !important;
+}
+.btn-reset:active{
+    color: rgb(0,0,0) !important;
+    background: white !important;
+    font-weight: bold !important;
+    transform: scale(0.9);
+    box-shadow: 0 0 5px white,
+    0 0 10px white,
+    0 0 20px white;
+    text-shadow: 1px 1px 1px black;
+}
+
+
+/* MEDIA QUERIES */
+
+@media (max-width:700px){
+    #contactame {
+        width: 90% !important;
+    }
+    /* .box-btn {
+        padding-right:  !important;
+    } */
+}
+
+@media (max-width:1050px) {
+    #contactame {
+        width: 60%;
+    }
+}
