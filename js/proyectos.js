@@ -1,43 +1,14 @@
-var i=1;
-const proyectosGit = () => {
-   document.querySelector("#proyectos").innerHTML=""
-   document.querySelector("#proyectos").innerHTML='<a class="a-proyecto" target="_blank" href="https://github.com/lmacuna/E-commerce-practice-3">Ir al Código</a>'
-    i===1?document.querySelector("#proyectos").innerHTML += `
-    <article>
-        <a class="a-proyecto" href="https://lmacuna.github.io/E-commerce-practice-3/"  target="_blank"><img alt="imagen ecommerce" id="img-proyectos" src="img/E-commerce-1.jpeg">Ir a Produccion</a>
-        
-    </article>
-    `:null
-    i===2?document.querySelector("#proyectos").innerHTML += `
-    <article>
-       
-        <a class="a-proyecto" href="https://lmacuna.github.io/E-commerce-practice-3/"  target="_blank"><img alt="imagen ecommerce" id="img-proyectos" src="img/E-commerce-2.jpeg">Ir a Produccion</a>
-      
-    </article>
-    `:null
-    i===3?document.querySelector("#proyectos").innerHTML+= `
-    <article>
-       
-        <a class="a-proyecto" href="https://lmacuna.github.io/E-commerce-practice-3/"  target="_blank"><img alt="imagen ecommerce" id="img-proyectos" src="img/E-commerce-3.jpeg">Ir a Produccion</a>
-    </article>
-    `:null
+const proyectos = () => {
+    document.querySelector("#proyectos").innerHTML = `
+    <div id="titulo-proyectos" data-aos="fade-right">
+        <h2 class="titulo-proyectos">Proyectos</h2>
+    </div>
+
+    <div id="content-proyectos" data-aos="fade-down">
+    <a class="a-proyectos" href="proyecto1.html"><i id="i-proyectos" class="fa-solid fa-diagram-project"></i><span id="span-proyectos" class="span-proyecto">Proyecto 1</span></a>
+    <a class="a-proyectos" href="proyecto2.html"><i id="i-proyectos" class="fa-solid fa-diagram-project"></i><span id="span-proyectos" class="span-proyecto">Proyecto 2</span></a>
+    </div>
+    `
 }
 
-proyectosGit()
-
-var cambio=false;
-setInterval(() => {
-    if(cambio===false){
-        i++
-        if(i===3){
-            cambio=true
-            
-        }
-    }else if(cambio===true){
-        i=i-1
-        if(i===1){
-            cambio=false
-        }
-    }
-    proyectosGit()
-},4000);
+proyectos()
