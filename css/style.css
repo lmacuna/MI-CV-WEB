@@ -36,6 +36,7 @@ body{
 
 /* BARRA DE NAVEGACIÓN */
 header{
+    
     z-index: 2;
     position:absolute;
     min-width: 10%;
