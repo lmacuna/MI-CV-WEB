@@ -1,7 +1,7 @@
 var i=1;
 const proyectosGit1 = () => {
    document.querySelector("#proyecto1").innerHTML=""
-   document.querySelector("#proyecto1").innerHTML='<a class="a-proyecto" target="_blank" href="https://github.com/lmacuna/E-commerce-practice-3"><span class="span-a-codigo">Ir al Código</span></a>'
+   document.querySelector("#proyecto1").innerHTML='<a class="a-proyecto1" target="_blank" href="https://github.com/lmacuna/E-commerce-practice-3"><span class="span-a-codigo">Ir al Código</span></a>'
     i===1?document.querySelector("#proyecto1").innerHTML += `
     <article>
         <a class="a-proyecto" href="https://lmacuna.github.io/E-commerce-practice-3/"  target="_blank"><img alt="imagen ecommerce" id="img-proyecto1" src="img/E-commerce-1.jpeg"><span class="span-a">Ir a Produccion</span></a>
