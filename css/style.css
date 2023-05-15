@@ -90,6 +90,7 @@ nav ul li a:hover{
     color: #B3BAC2;
     font-size: 30px;
     z-index: 3;
+    cursor: pointer;
 }
 
 #input-nav{
@@ -213,7 +214,7 @@ nav ul li a:hover{
         justify-content: flex-start;
     }
     
-
+     
     nav{
         display: none;
         position: fixed;
@@ -252,6 +253,7 @@ nav ul li a:hover{
 
     #label-nav{
         margin: 15px 0px 0px 15px;
+       
     }
     
 }
