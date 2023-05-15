@@ -21,12 +21,14 @@
     box-shadow: 0 0 50px black,0 0 100px black,0 0 200px black;
     transition: all 0.5s;
     box-sizing: border-box;
+    z-index: 1;
 }
 
 
 #img-ficha{
     max-width: 100%;
     clip-path: polygon(100% 0, 100% 84%, 50% 100%, 0 85%, 0 0);
+    z-index: 1;
 }
 @media (max-width:1050px){
    #div-ficha{
