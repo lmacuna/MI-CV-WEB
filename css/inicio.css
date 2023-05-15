@@ -1,11 +1,12 @@
 /* SECCIÓN INICIO */
 #inicio{
     display: flex;
+    height: 74vh;
     width: 100%;
     color: #B3BAC2;
     justify-content: space-around;
     align-items: center;
-    box-sizing: border-box;
+    box-sizing: border-box; 
 }
 
 /* FICHA PERSONAL */
@@ -106,12 +107,13 @@
 }
 
 /* MEDIA QUERIES */
-@media screen and (max-width: 1050px){
+@media  (max-width: 1050px){
     #inicio{
         flex-direction: column;
         justify-content: center;
         align-items: center;
         padding-left:1% !important;
+        height: auto !important;
            
     }
     #ficha-personal{
