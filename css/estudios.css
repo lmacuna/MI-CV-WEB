@@ -1,6 +1,7 @@
 #estudios{
     display: flex;
     width: 100%;
+    padding-left: 5%;
     justify-content: space-around;
     align-items: center;
     color: #B3BAC2;
@@ -20,7 +21,7 @@
     box-sizing: border-box;
 }
 #content-estudios{
-    width: 60%;
+    width: 55%;
     border: 2px solid #01040ff9;
     box-shadow: 0 0 10px black,
     0 0 20px black,
@@ -61,8 +62,11 @@
     #estudios{
         display: flex;
         flex-direction: column;
+       
         width: 100%;
         height: 76vh !important;
+        padding-left:1% !important;
+        
     }
     #titulo-estudios{
         width: 70%;

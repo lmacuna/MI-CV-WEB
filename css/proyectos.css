@@ -1,3 +1,12 @@
+#proyectos{
+    display: flex;
+    width: 100%;
+    padding-left: 12%;
+    justify-content: space-around;
+    align-items: center;
+    color: #B3BAC2;
+    box-sizing: border-box;
+}
 #img-proyectos{
     width: 50%;
 }

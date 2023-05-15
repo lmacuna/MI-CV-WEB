@@ -5,6 +5,7 @@
     align-items: center;
     color: #B3BAC2;
     box-sizing: border-box;
+    padding-left: 5%;
 }
 
 #div-titulo{
@@ -20,7 +21,7 @@
     box-sizing: border-box;
 }
 #content-experiencia{
-    width: 60%;
+    width: 55%;
     border: 2px solid #01040ff9;
     box-shadow: 0 0 10px black,
     0 0 20px black,
