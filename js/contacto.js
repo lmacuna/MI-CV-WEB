@@ -67,10 +67,10 @@ form.addEventListener('submit', (e) => {
         }
 
     } else if (nombre === "" || email === "" || asunto === "" || mensaje === "") {
-        !nombre ? (document.querySelector("#nombre-vacio").innerText = "*falta completar el nombre", document.querySelector("#nombre").classList.add("input-rojo"), document.querySelector("#tilde-nombre").innerHTML = `<div style="color:red">X</div>`) : null
-        !email ? (document.querySelector("#email-vacio").innerText = "*falta completar el email", document.querySelector("#email").classList.add("input-rojo"), document.querySelector("#tilde-email").innerHTML = `<div style="color:red">X</div>`) : null
-        !asunto ? (document.querySelector("#asunto-vacio").innerText = "*falta completar el asunto", document.querySelector("#asunto").classList.add("input-rojo"), document.querySelector("#tilde-asunto").innerHTML = `<div style="color:red">X</div>`) : null
-        !mensaje ? (document.querySelector("#mensaje-vacio").innerText = "*falta completar el mensaje", document.querySelector("#mensaje").classList.add("textarea-rojo"), document.querySelector("#tilde-mensaje").innerHTML = `<div style="color:red">X</div>`) : null
+        !nombre ? (document.querySelector("#nombre-vacio").innerText = "*falta completar el nombre", document.querySelector("#nombre").classList.add("input-rojo"), document.querySelector("#tilde-nombre").innerHTML = `<div style="color:red;height:24px">X</div>`) : null
+        !email ? (document.querySelector("#email-vacio").innerText = "*falta completar el email", document.querySelector("#email").classList.add("input-rojo"), document.querySelector("#tilde-email").innerHTML = `<div style="color:red;height:24px">X</div>`) : null
+        !asunto ? (document.querySelector("#asunto-vacio").innerText = "*falta completar el asunto", document.querySelector("#asunto").classList.add("input-rojo"), document.querySelector("#tilde-asunto").innerHTML = `<div style="color:red;height:24px">X</div>`) : null
+        !mensaje ? (document.querySelector("#mensaje-vacio").innerText = "*falta completar el mensaje", document.querySelector("#mensaje").classList.add("textarea-rojo"), document.querySelector("#tilde-mensaje").innerHTML = `<div style="color:red;height:24px">X</div>`) : null
     }
 
 })
