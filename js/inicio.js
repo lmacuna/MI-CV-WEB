@@ -11,7 +11,7 @@ const inicio = () => {
             <a target="_blank" href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJqWggDbkHQvTSZcrmzgtWPqmzGnMMJlTpLbDbdSVhvdSsSMXLdKxbrflxsLdtLPBkHcNXB"><i class="fa-regular fa-envelope"></i></a>
         </div>
         <div class="div-titulos">
-            <p><a target="_blank" href="../pdf/27.2 cheatsheet-emmet.pdf" download="CV Lucas Acuña">Descargar CV</a></p>
+            <p><a target="_blank" href="pdf/CV.MARTIN.2023.pdf" download="CV Lucas Acuña">Descargar CV</a></p>
             <p><a target="_blank" href="https://walink.co/521028">Contactame</a></p>
         </div>
     </div>
