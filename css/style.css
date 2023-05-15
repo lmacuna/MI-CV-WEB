@@ -37,7 +37,7 @@ body{
 /* BARRA DE NAVEGACIÓN */
 header{
     z-index: 2;
-    position:relative;
+    position:absolute;
     min-width: 10%;
     display: flex;
     flex-direction: column;
