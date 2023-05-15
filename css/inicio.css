@@ -38,13 +38,17 @@
 }
 @media (max-width:650px){
    #div-ficha{
+    
     width: 55%;
    }
 }
 @media (max-width:550px){
    #div-ficha{
+    background: none;
+    padding-top: 50px !important;
     width: 65%;
    }
+  
 }
 @media (max-width:450px){
    #div-ficha{
