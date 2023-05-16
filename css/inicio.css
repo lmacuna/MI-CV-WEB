@@ -20,7 +20,7 @@
     height: 100%;
     text-align: center;
     box-shadow: 0 0 50px black,0 0 100px black,0 0 200px black;
-    transition: all 1.5s;
+    transition: all 2s;
     box-sizing: border-box;
     z-index: 1;
 }
@@ -103,7 +103,7 @@
     justify-content: center;
     align-items: center;
     background: radial-gradient(circle,rgb(0, 4, 9),rgb(5, 37, 91,0.4));;
-    transition: all 1.5s;
+    transition: all 2s;
 }
 
 #video-personal iframe{

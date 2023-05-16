@@ -1,6 +1,6 @@
 const contactame = () => {
     document.querySelector("#contactame").innerHTML = `
-    <section>
+    <section data-aos="fade-down">
         <h2> Contacto</h2>
         <form id="form" class="form-contacto">
             <div id="box-nombre" class="box-form">

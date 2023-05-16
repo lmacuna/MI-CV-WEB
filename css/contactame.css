@@ -296,7 +296,9 @@ textarea {
     0 0 20px white;
     text-shadow: 1px 1px 1px black;
 }
-
+section{
+    transition: all 2s !important;
+}
 
 /* MEDIA QUERIES */
 
