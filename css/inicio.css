@@ -102,7 +102,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: radial-gradient(circle,rgb(0, 4, 9),rgb(5, 37, 91));;
+    background: radial-gradient(circle,rgb(0, 4, 9),rgb(5, 37, 91,0.4));;
     transition: all 1.5s;
 }
 
