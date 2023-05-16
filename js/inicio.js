@@ -16,8 +16,15 @@ const inicio = () => {
         </div>
     </div>
     
-    <div id="video-personal">
-        <iframe
+    <div id="video-personal" data-aos="fade-down">
+            <h2 style="width:100%;display:flex;justify-content:center;align-item:center">CURRICULUM VITAE</h2>
+    </div>
+    `
+}
+inicio();
+
+
+   /*      <iframe
         src="https://www.youtube.com/embed/6qYTQI8FqzQ" 
         title="YouTube video player" 
         frameborder="0" 
@@ -29,8 +36,4 @@ const inicio = () => {
         web-share" 
         allowfullscreen
         >
-        </iframe>
-    </div>
-    `
-}
-inicio();
+        </iframe> */
