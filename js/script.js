@@ -23,7 +23,7 @@ const footer = () => {
     </footer>
     
     <div class="div-copy-footer">
-        <p class="copy-footer"><a style="color:white !important" target="_blank" href="#">Copyright &copy; 2023 Luna Software</a></p>
+        <p class="copy-footer"><a style="color:white !important" target="_blank" href="#">Copyright &copy; 2023 Lucas Software</a></p>
     </div>
     `
 }
